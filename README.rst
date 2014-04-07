@@ -1,0 +1,1 @@
+This is a Tutorial about sending emails using Spring MVC.  I'm just a beginner at this, so it's just sending an email from a standalone Java app.
