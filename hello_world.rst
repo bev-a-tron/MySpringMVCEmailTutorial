@@ -27,3 +27,46 @@ the end of logical names, so it will be entirely obvious which names can be
 changed with no penalty.  And, it will give you an idea of what "real"
 programmers might use to call a certain function (hint: just drop the "_lulu").
 Naming things well is certainly a skill to be desired.
+
+
+Create a hello world Java app
+-----------------------------
+
+I know you probably have already made one of these before, but let's do this together!  Create a file called Main.java, and make it look like this::
+
+    public class Main {
+        public static void main(String[] args) {
+            System.out.println("Hello world");
+        }
+    }
+
+With just this, you should be able to compile and run (and greet the world!).  I compile and run through Intelli-J, but
+
+    >> javac Main.java
+    >> java Main
+
+Next, create an EmailSender class; call it EmailSender.java, and make it look like this::
+
+    public class EmailSender {
+        public void sendMail() {
+            System.out.println("Hello email!");
+        }
+    }
+
+And then make sure you call it from Main.  Here's an updated view of Main.java::
+
+    
+    public class Main {
+        public static void main(String[] args) {
+            System.out.println("Hello world");
+	    EmailSender emailSender = new EmailSender();
+	    emailSender.sendMail();
+        }
+    }
+
+Compile and run again (javac, java).  And see it print out::
+
+Hello world
+Hello email!
+
+In the next section, we'll create a Spring MVC bean.  I'll try to explain what it is, too.
