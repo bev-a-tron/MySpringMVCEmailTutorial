@@ -70,7 +70,7 @@ And then make sure you call it from Main.  Here's an updated view of Main.java::
 
 Compile and run again (javac, java).  And see it print out::
 
-Hello world
-Hello email!
+    Hello world
+    Hello email!
 
 In the next section, we'll create a Spring MVC bean.  I'll try to explain what it is, too.
