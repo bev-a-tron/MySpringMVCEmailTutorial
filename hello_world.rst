@@ -40,10 +40,14 @@ I know you probably have already made one of these before, but let's do this tog
         }
     }
 
-With just this, you should be able to compile and run (and greet the world!).  I compile and run through Intelli-J, but
+With just this, you should be able to compile and run.  I compile and run through Intelli-J, but you can also do this on command line::
 
     >> javac Main.java
     >> java Main
+
+The result should be something that looks like::
+
+    Hello world
 
 Next, create an EmailSender class; call it EmailSender.java, and make it look like this::
 
